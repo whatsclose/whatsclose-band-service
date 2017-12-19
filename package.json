@@ -1,0 +1,32 @@
+{
+  "name": "whatsclose-band-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Fred-el-Jolo <guillaume.frederic@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "NODE_PATH=\"$(pwd)\" babel-node index.js"
+  },
+  "babel": {
+    "presets": [
+      "airbnb"
+    ]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-airbnb": "^2.4.0",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0"
+  },
+  "dependencies": {
+    "co": "^4.6.0",
+    "envalid": "^4.1.1",
+    "nats": "^0.7.24",
+    "protobufjs": "^6.8.0",
+    "winston": "^2.4.0"
+  }
+}

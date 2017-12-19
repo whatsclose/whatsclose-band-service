@@ -1,0 +1,19 @@
+//https://github.com/airbnb/javascript/blob/master/linters/.eslintrc
+{
+    "extends": "airbnb",
+    "plugins": [
+        "import"
+    ],
+    "settings" : {
+        "import/resolver": {
+          "node": {
+            "moduleDirectory": ["node_modules", "."]
+          }
+        }
+    },
+    "rules": {
+        "indent": ["error", 4],
+        "quotes": ["error", "backtick"],
+        "func-names": ["warn", "as-needed"]
+    }
+}
